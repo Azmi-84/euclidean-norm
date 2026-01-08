@@ -1,0 +1,8 @@
+mkdocs>=1.6.1
+mkdocs-jupyter>=0.25.1
+mkdocs-marimo>=0.2.1
+mkdocs-rtd-dropdown>=1.0.2
+mkdocstrings[python]>=1.0.0
+nbformat>=5.10.4
+pymdown-extensions>=10.20
+

@@ -1,4 +1,7 @@
 site_name: Euclidean Norm
+site_url: https://azmi-84.github.io/Euclidean-Norm/
+repo_url: https://github.com/Azmi-84/Euclidean-Norm
+edit_uri: edit/master/docs/
 
 theme:
   name: readthedocs
