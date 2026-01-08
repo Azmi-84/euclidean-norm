@@ -1,0 +1,5 @@
+Hello test file with write plus read mode line 1.Hello test file with write plus read mode line 2.Hello test file with write plus read mode line 3.Hello test 2 file.Hello test 2 file.Hello test 2 file.
+New Line ONE
+New Line TWO
+New Line THREE
+New Line FOUR

@@ -1,0 +1,70 @@
+site_name: Euclidean Norm
+
+theme:
+  name: readthedocs
+
+plugins:
+  - search
+  - marimo
+  - mkdocstrings
+  - mkdocs-jupyter
+
+nav:
+  - Home: index.md
+  - About Me: about-me.md
+  - Python Fundamental Course:
+      - Module 01 - Python Basics:
+          - Tokens and Basics (HTML): python_fundamental_course/modules/module_01/__marimo__/01_tokens_and_basics.ipynb
+          - Data Types and Conversion: python_fundamental_course/modules/module_01/02_data_types_and_conversion.py
+      - Module 02 - Operators:
+          - Operators and Expressions: python_fundamental_course/modules/module_02/01_operators_and_expressions.py
+      - Module 03 - Lists:
+          - Lists and Indexing: python_fundamental_course/modules/module_03/01_lists_and_indexing.py
+      - Module 04 - Practice:
+          - Data Types Problems and Practice: python_fundamental_course/modules/module_04/01_data_types_problems_practice.py
+      - Module 05 - Data Structures:
+          - Tuples: python_fundamental_course/modules/module_05/01_tuples.py
+          - Sets: python_fundamental_course/modules/module_05/02_sets.py
+          - Dictionaries: python_fundamental_course/modules/module_05/03_dictionaries.py
+      - Module 06 - Functions:
+          - Functions Basics: python_fundamental_course/modules/module_06/01_functions_basics.py
+          - Return Statements: python_fundamental_course/modules/module_06/02_return_statements.py
+          - Iterators and Generators: python_fundamental_course/modules/module_06/03_iterators_and_generators.py
+          - Lambda Functions: python_fundamental_course/modules/module_06/04_lambda_functions.py
+          - Map Function: python_fundamental_course/modules/module_06/05_map_function.py
+          - Filter Function: python_fundamental_course/modules/module_06/06_filter_function.py
+          - Reduce Function: python_fundamental_course/modules/module_06/07_reduce_function.py
+      - Module 07 - File Handling and Exceptions:
+          - File Reading: python_fundamental_course/modules/module_07/01_file_reading.py
+          - File Writing: python_fundamental_course/modules/module_07/02_file_writing.py
+          - Exception Handling: python_fundamental_course/modules/module_07/03_exception_handling.py
+      - Module 08 - Object-Oriented Programming:
+          - OOP Introduction: python_fundamental_course/modules/module_08/01_oop_introduction.py
+          - Inheritance: python_fundamental_course/modules/module_08/02_inheritance.py
+          - Polymorphism: python_fundamental_course/modules/module_08/03_polymorphism.py
+          - Abstraction: python_fundamental_course/modules/module_08/04_abstraction.py
+          - Encapsulation: python_fundamental_course/modules/module_08/05_encapsulation.py
+      - Module 09 - Advanced OOP:
+          - Class Methods: python_fundamental_course/modules/module_09/01_class_methods.py
+      - Module 10 - NumPy Fundamentals:
+          - NumPy Basics: python_fundamental_course/modules/module_10/01_numpy_basics.py
+      - Module 11 - NumPy Advanced:
+          - NumPy Advanced Part 1: python_fundamental_course/modules/module_11/01_numpy_advanced_1.py
+          - NumPy Advanced Part 2: python_fundamental_course/modules/module_11/02_numpy_advanced_2.py
+          - NumPy Advanced Part 3: python_fundamental_course/modules/module_11/03_numpy_advanced_3.py
+      - Module 12 - Pandas Fundamentals:
+          - Pandas Basics: python_fundamental_course/modules/module_12/01_pandas_basics.py
+          - Pandas DataFrames: python_fundamental_course/modules/module_12/02_pandas_dataframes.py
+      - Module 13 - Pandas Data Analysis:
+          - Data Manipulation Part 1: python_fundamental_course/modules/module_13/01_pandas_manipulation_1.py
+          - Data Manipulation Part 2: python_fundamental_course/modules/module_13/02_pandas_manipulation_2.py
+          - Data Manipulation Part 3: python_fundamental_course/modules/module_13/03_pandas_manipulation_3.py
+          - Data Analysis Part 1: python_fundamental_course/modules/module_13/04_pandas_analysis_1.py
+          - Data Analysis Part 2: python_fundamental_course/modules/module_13/05_pandas_analysis_2.py
+      - Module 14 - Data Visualization with Matplotlib:
+          - Matplotlib Basics: python_fundamental_course/modules/module_14/01_matplotlib_basics.py
+          - Matplotlib Advanced: python_fundamental_course/modules/module_14/02_matplotlib_advanced.py
+      - Module 15 - Interactive Visualizations:
+          - Seaborn Visualizations: python_fundamental_course/modules/module_15/01_seaborn_visualizations.py
+          - Plotly Interactive Charts: python_fundamental_course/modules/module_15/02_plotly_interactive.py
+#  - Machine Learning Course: machine_learning_course/adaptive_boosting/adaptive_boosting_classifier.py
